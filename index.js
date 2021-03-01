@@ -1,5 +1,4 @@
 const http = require("http");
-const { resolve } = require("path");
 
 class Private {
     static checkUrl(Pi) {
@@ -280,9 +279,9 @@ class Utilities {
     static post(url, data) {
         return new Promise((resolve, reject) => {
             let options = Private.createRequestOptions(url, "POST");
-            //options.body = data;
             options.headers = {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Content-Length': data.length
             }
             
             let req = http.request(options, res => {

@@ -1,6 +1,6 @@
 {
   "name": "piapi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Client library for interfacing with PiAPI running on your raspberry pi",
   "main": "index.js",
   "repository": {
