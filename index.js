@@ -88,6 +88,13 @@ class Pi {
     }
 
     /**
+     * Returns the default port of PiAPI
+     */
+    static defaultPort() {
+        return "5000";
+    }
+
+    /**
      * Initiates pin on the raspberry pi
      * @param {Number} pin The pin on the raspberry pi
      * @param {string} direction The direction of the pin
