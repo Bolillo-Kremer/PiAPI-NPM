@@ -1,0 +1,24 @@
+{
+  "name": "piapi",
+  "version": "1.0.0",
+  "description": "Client library for interfacing with PiAPI running on your raspberry pi",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bolillo-Kremer/PiAPI-NPM.git"
+  },
+  "keywords": [
+    "pi",
+    "api",
+    "piapi",
+    "http",
+    "raspberry",
+    "raspberrypi"
+  ],
+  "author": "Bolillo Kremer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bolillo-Kremer/PiAPI-NPM/issues"
+  },
+  "homepage": "https://github.com/Bolillo-Kremer/PiAPI-NPM#readme"
+}
