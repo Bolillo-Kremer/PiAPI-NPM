@@ -17,6 +17,8 @@ You can download the PiAPI's NPM package with the following command...
 npm install piapi --save
 ```
 
+Next you need to set up a connection to PiAPI like this...
+
 ```js
 const {Pi} = require("piapi");
 ```
